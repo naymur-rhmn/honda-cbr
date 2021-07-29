@@ -15,6 +15,9 @@ body {
 .boxed-btn {
     background-color: #E76F51;
 }
+.boxed-btn:hover {
+    background-color: #e05d3c;
+}
 /*====================
  header
 --------------------- */
@@ -23,6 +26,9 @@ body {
 }
 .custom-h1 {
     font-weight: 500;
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f17657;
 }
 /*====================
  feature
@@ -52,7 +58,7 @@ body {
     font-weight: 500;
 }
 .outline-btn:hover {
-    background-color: #E76F51;
+    background-color: #e05d3c;
     color: white;
 }
 /*====================
@@ -69,6 +75,16 @@ body {
 --------------------- */
 .accordion-custom-height {
     min-height: 500px;
+}
+/*====================
+ News
+--------------------- */
+.news-content a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.news-content a:hover {
+    color: rgb(0, 0, 0);
 }
 /*====================
  contact us
@@ -106,4 +122,7 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: rgb(211, 211, 211);
+}
+footer ul li a:hover {
+    color: #f17657;
 }
