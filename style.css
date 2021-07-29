@@ -9,3 +9,46 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.boxed-btn {
+    background-color: #E76F51;
+}
+/*====================
+ header
+--------------------- */
+.header-bg {
+    background-color: #264653;
+}
+.custom-h1 {
+    font-weight: 500;
+}
+/*====================
+ feature
+--------------------- */
+.border-text {
+    position: relative;
+}
+.border-text::after {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    height: 2px;
+    width: 40%;
+    margin-left: -20%;
+    content: "";
+    background-color: #E76F51;
+}
+.img-grayscale {
+    filter: grayscale(100%);
+}
+/*====================
+ Latest news
+--------------------- */
+.outline-btn {
+    border: 1px solid #E76F51;
+    color: #E76F51;
+    font-weight: 500;
+}
+.outline-btn:hover {
+    background-color: #E76F51;
+    color: white;
+}
