@@ -6,6 +6,9 @@
 /*====================
  base style
 --------------------- */
+html, body {
+    overflow-x: hidden;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -51,4 +54,32 @@ body {
 .outline-btn:hover {
     background-color: #E76F51;
     color: white;
+}
+/*====================
+ happy clients
+--------------------- */
+.orange-text {
+    color: #E76F51;
+}
+.icon .far {
+    color: #E76F51;
+}
+/*====================
+ faq
+--------------------- */
+.accordion-custom-height {
+    min-height: 480px;
+}
+
+/* footer */
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: rgb(211, 211, 211);
 }
