@@ -68,10 +68,34 @@ body {
  faq
 --------------------- */
 .accordion-custom-height {
-    min-height: 480px;
+    min-height: 500px;
 }
-
-/* footer */
+/*====================
+ contact us
+ --------------------- */
+ .contact-bg {
+    background-image: url(images/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.submit-btn {
+    border-color: #E76F51;
+    color: #E76F51;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 500;
+}
+.submit-btn:hover {
+    background-color: #E76F51;
+    color: whitesmoke;
+}
+input, textarea {
+    outline: none;
+}
+/*====================
+ footer
+ --------------------- */
 footer ul {
     list-style: none;
 }
